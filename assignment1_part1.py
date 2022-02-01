@@ -40,4 +40,4 @@ def testListDivide():
         raise ListDivideException("numlist5 error")
     
     
-    """TEST command is calling the testListDivide via testListDivide()"""
+    """TEST command is calling the testListDivide via ------> testListDivide()"""
