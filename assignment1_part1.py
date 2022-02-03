@@ -38,6 +38,10 @@ def testListDivide():
         raise ListDivideException("numlist4 error")
     if numlist5 != 5:
         raise ListDivideException("numlist5 error")
+        
+        
+if __name__ == "__main__":
+    testListDivide()
     
     
     """TEST command is calling the testListDivide via ------> testListDivide()"""
